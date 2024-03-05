@@ -1,0 +1,34 @@
+{
+  "medicines": [
+    {
+      "id": 1,
+      "title": "Alli",
+      "price": 49.99,
+      "image": "https://images.theindependentpharmacy.co.uk/products/_medium4x3Fit/1534417104-alli_60mg_capsules.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Xenical",
+      "price": 59.99,
+      "image": "https://images.theindependentpharmacy.co.uk/products/_medium4x3Fit/1534417060-xenical_120mg_capsules.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Orlos",
+      "price": 18.99,
+      "image": "https://images.theindependentpharmacy.co.uk/products/_medium4x3Fit/Orlos-60mg-Capsules.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Orlistat",
+      "price": 39.99,
+      "image": "https://images.theindependentpharmacy.co.uk/products/_medium4x3Fit/1533725493-orlistat_120mg_capsules.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Mounjaro",
+      "price": 179.15,
+      "image": "https://images.theindependentpharmacy.co.uk/products/_medium4x3Fit/mounjaro-2-point-5mg.png"
+    }
+  ]
+}

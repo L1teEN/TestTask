@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Illia Labuntsev">
+    <meta name="keywords" content="Medicine,Pharmacy store,Drugs store">
+    <title>Drug Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/index.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header-link">Shop</a>
+        <a href="cart.html" class="header-link">Shopping Cart</a>
+    </header>
+
+    <main>
+        <div class="panel">
+            <select id="select-list">
+                <option value="lower">Sort by lower price</option>
+                <option value="higher">Sort by higher price</option>
+            </select>
+        </div>
+        <div class="container">
+            <aside class="aside">
+                <p>Shops:</p>
+                <div class="aside-buttons">
+                    <button class="aside-button">Drugs 24</button>
+                    <button class="aside-button">Pharmacy</button>
+                    <button class="aside-button">etc</button>
+                    <button class="aside-button">etc</button>
+                    <button class="aside-button">etc</button>
+                </div>
+            </aside>
+
+
+            <div id="drugs-list"></div>
+        </div>
+    </main>
+    <script src="src/script.js"></script>
+</body>
+</html>

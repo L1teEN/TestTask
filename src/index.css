@@ -1,0 +1,149 @@
+body {
+    margin: 0 auto;
+    font-family: Montserrat, 'sans-serif';
+}
+
+.header {
+    padding: 25px;
+    background-color: #414141;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color .3s linear;
+    font-weight: bold;
+}
+
+.header-link:nth-child(2) {
+    margin-left: 25px;
+}
+
+.header-link:hover {
+    color: #0077ff;
+    transition: color .3s linear;
+}
+
+.panel {
+    margin: 15px 0 0 15px;
+}
+
+.panel select {
+    border: 1px solid black;
+    padding: 5px;
+    height: 50px;
+    background-color: #eaeaea;
+    font-family: Montserrat, 'sans-serif';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.panel select:focus {
+    border: 2px solid black;
+    border-radius: 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.aside {
+    display: block;
+    margin: 15px 0 0 15px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.aside p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.aside-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.aside-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 50px;
+    border-radius: 15px;
+    margin: 15px auto;
+    transition: color .3s linear, background-color .3s linear;
+}
+
+#drugs-list {
+    display: flex;
+    max-height: 700px;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    margin: 15px 35px 0 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.medicine-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.medicine-element {
+    width: 300px;
+    margin: 15px 15px 15px 15px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.price-and-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-to-cart-button {
+    width: 100px;
+    height: 50px;
+    font-family: Montserrat, 'sans-serif';
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: color .3s linear, background-color .3s linear;
+}
+
+.aside-button:hover, .add-to-cart-button:hover {
+    cursor: pointer;
+    background-color: #0077ff;
+    color: #fff;
+    transition: color .3s linear, background-color .3s linear;
+}
+
+.alert {
+    display: none;
+    position: relative;
+}
+
+.alert.active {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    width: 250px;
+    background-color: #d9d9d9;
+    height: 100px;
+    color: #000000;
+    border-radius: 15px;
+}
+
+@media (max-width: 1550px) {
+    #drugs-list { margin-right: 1.5% }
+}
